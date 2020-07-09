@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Which language will be used in this page -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0/">
+    <!-- Who wrote this page -->
+    <meta name="author" content="Gwen Ellegeest">
+    <!-- title in browser tab -->
+    <title> PLace a title here </title>
+
+    <!-- Link to stylesheet -->
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Link to Google fonts styling -->
+
+</head>
+
+<body>
+<div class="form">
+    <label for="firstNr" hidden></label><input type="text" id="firstNr" value="" placeholder="Number...">
+    <label for="operator" hidden></label><select id="operator" class="opr">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="x">x</option>
+    <option value="/">/</option>
+</select>
+    <label for="secondNr" hidden></label><input type="text" id="secondNr" value="" placeholder="Number..."/>
+    <label for="calcu"></label><input type="button" id="calcu" placeholder="5468" onclick="calc();"/>
+    <label for="result" hidden></label> <input class="result" id="result" placeholder="[Result]"/>
+</div>
+
+<script type="text/javascript" rel="script" src="script.js"></script>
+</body>
+
+</html>
